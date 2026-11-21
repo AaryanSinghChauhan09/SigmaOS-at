@@ -1,7 +1,7 @@
 # SigmaOS-SigmaOS-at Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-at provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-at provides Accessibility settings manager for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-at follows a SigmaOS-at pattern:
 
 ## API
 The component provides the following public APIs:
-- `core::manage(SigmaOS-at)` - Manage a SigmaOS-at by given configuration
-- `core::register(SigmaOS-at)` - Register a SigmaOS-at by given name
-- `core::status::SigmaOS-at()` - Get SigmaOS-at status and SigmaOS-at availability
-- `core::track::SigmaOS-at()` - Track SigmaOS-at management and SigmaOS-at tracking
+-  - Manage a SigmaOS-at by given configuration
+-  - Register a SigmaOS-at by given name
+-  - Get SigmaOS-at status and SigmaOS-at availability
+-  - Track SigmaOS-at management and SigmaOS-at tracking
 - Error types for SigmaOS-at failure scenarios or unsupported SigmaOS-at types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -33,24 +33,10 @@ All tests follow the AAA pattern:
 3. **Assert**: Verify the expected SigmaOS-at results
 
 Example:
-```rust
-#[test]
-fn test_SigmaOS-at_aaa() {
-    // Arrange
-    let SigmaOS-at = SigmaOS-at::new("my-SigmaOS-at");
-    
-    // Act
-    let result = core::manage(SigmaOS-at);
-    
-    // Assert
-    assert!(result.is_ok());
-    let managed = result.unwrap();
-    assert!(managed.is_managed());
-}
-```
+
 
 ## Development
-- Follows Rust best practices with `#![forbid(unsafe_code)]`
+- Follows Rust best practices with 
 - SigmaOS-at initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-at failure scenarios
 - Unit tests provided for SigmaOS-at management and configuration

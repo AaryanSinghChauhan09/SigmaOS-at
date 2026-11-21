@@ -1,9 +1,9 @@
 # SigmaOS-at
 
-GitHub description is a placeholder; component scope remains unclassified.
+Accessibility tools for SigmaOS inspired by SigmaOS Linux
 
-- **Category:** System Utilities
-- **Engine:** system_tool
+- **Category:** Utilities
+- **Engine:** accessibility
 - **Language:** Rust
 
 ## Build & Test
